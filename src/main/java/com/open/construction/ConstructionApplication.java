@@ -22,8 +22,6 @@ import java.util.List;
 
 
 @SpringBootApplication
-@RestController
-@RequestMapping(path = "/api/v1/customers")
 public class ConstructionApplication {
 
 	public static void main(String[] args) {
