@@ -34,7 +34,6 @@ public class ConstructionApplication {
 	,LicenseRepository licenseRepository, BusinessRepository businessRepository, NationalIDRepository nationalIDRepository){
 		return args -> {
 			//generateValues(customerRepo);
-
 			Faker faker = new Faker();
 			String firstName = faker.name().firstName();
 			String lastName = faker.name().lastName();
